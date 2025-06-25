@@ -1,0 +1,105 @@
+/* Tablets e telas menores que 1024px */
+@media (max-width: 1024px) {
+  .product-name {
+    font-size: 3rem;
+  }
+
+  .product-tag {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+  }
+
+  header nav ul li {
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+}
+
+/* Celulares e telas menores que 900px */
+@media (max-width: 900px) {
+
+.product-name {
+    font-size: 3rem;
+  }
+
+  .product-tag {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+  }
+
+  header nav ul li {
+    font-size: 1rem;
+    left: 10vw;
+    bottom: vw;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .arrows{
+    width: 98%;
+  }
+}
+
+
+/* Celulares e telas menores que 600px */
+@media (max-width: 600px) {
+  .product-name {
+    font-size: 1.8rem;
+  }
+
+  .product-tag {
+    font-size: 0.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+
+  .logo {
+    font-size: 1.0rem;
+  }
+
+  header nav ul {
+    gap: 16px;
+  }
+
+  header nav ul li {
+    font-size: 0.7rem;
+    left: 15vw;
+    bottom: 2vw;
+  }
+
+  .numbers {
+    font-size: 2rem;
+  }
+
+  .arrows{
+    width: 95%;
+  }
+}
